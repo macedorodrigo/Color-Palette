@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Color Palette</title>
+</head>
+<body>
+    <h1 id="title">Color Palette</h1>
+    
+    <div id="color-palette">
+        <div class="color selected" style="background-color: black;"></div>
+        <div class="color" style="background-color: #FF5733;"></div>
+        <div class="color" style="background-color: #33FF57;"></div>
+        <div class="color" style="background-color: #5733FF;"></div>
+    </div>
+
+    <div id="inputs">
+        <input type="number" id="board-size" min="1" placeholder="Size">
+        <button id="generate-board">Go</button> 
+        <button id="clear-board">Clear</button>
+    </div>
+
+    <div id="pixel-board">
+        <!-- Pixel elements will be generated dynamically -->
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
